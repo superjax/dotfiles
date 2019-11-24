@@ -1,0 +1,5 @@
+alias sbashrc='source ~/.zshrc'
+alias vbashrc='vim ~/.zshrc'
+
+alias cmakr='cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make -j4 -l4'
+alias cmakd='cmake .. -DCMAKE_BUILD_TYPE=Debug && make -j4 -l4'

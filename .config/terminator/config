@@ -1,0 +1,51 @@
+[global_config]
+  title_inactive_bg_color = "#000000"
+  title_inactive_fg_color = "#d3d7cf"
+  title_transmit_bg_color = "#000000"
+[keybindings]
+  go_down = <Primary><Shift>j
+  go_left = <Primary><Shift>h
+  go_right = <Primary><Shift>l
+  go_up = <Primary><Shift>k
+  help = F12
+  hide_window = F1
+  new_window = <Primary><Shift>n
+  split_horiz = <Primary><Shift>u
+  split_vert = <Primary><Shift>i
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 358130fa-7bff-4c69-85b5-35682acc11a5
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 72:99
+      size = 734, 454
+      title = superjax@apollo: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 366
+      ratio = 0.502057613169
+      type = HPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 09053cbd-a95a-4bcf-a696-3236b4d3839e
+    [[[terminal3]]]
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 358130fa-7bff-4c69-85b5-35682acc11a5
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    scrollback_infinite = True
+    scrollbar_position = hidden

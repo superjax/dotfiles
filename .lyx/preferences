@@ -1,0 +1,98 @@
+# LyX 2.3.3 generated this file. If you want to make your own
+# modifications you should do them from inside LyX and save.
+
+Format 24
+
+
+#
+# MISC SECTION ######################################
+#
+
+\user_name "James Jackson"
+\user_email ""
+
+#
+# SCREEN & FONTS SECTION ############################
+#
+
+\screen_font_sizes 5 7 8 9 10 12 14.4 17.26 20.74 24.88
+\single_instance false
+
+#
+# COLOR SECTION ###################################
+#
+
+\set_color "cursor" "#ffffff"
+\set_color "background" "#272824"
+\set_color "foreground" "#f8f8f4"
+\set_color "selection" "#75715e"
+\set_color "selectiontext" "#f8f8f4"
+\set_color "latex" "#f92672"
+\set_color "greyedoutbg" "#75715e"
+\set_color "command" "#f4bf75"
+\set_color "graphicsbg" "#272824"
+\set_color "math" "#a6e22e"
+\set_color "mathbg" "#272824"
+\set_color "mathframe" "#f92672"
+\set_color "mathcorners" "#ae81ff"
+\set_color "mathline" "#66d9ef"
+\set_color "collapsible" "#f4bf75"
+\set_color "collapsibleframe" "#f4bf75"
+\set_color "buttonframe" "#f4bf75"
+\set_color "buttonbg" "#272824"
+\set_color "buttonhoverbg" "#75715e"
+
+#
+# PRINTER SECTION ###################################
+#
+
+
+#
+# TEX SECTION #######################################
+#
+
+
+#
+# FILE SECTION ######################################
+#
+
+
+#
+# PLAIN TEXT EXPORT SECTION ##############################
+#
+
+
+#
+# SPELLCHECKER SECTION ##############################
+#
+
+
+#
+# LANGUAGE SUPPORT SECTION ##########################
+#
+
+
+#
+# 2nd MISC SUPPORT SECTION ##########################
+#
+
+
+#
+# FORMATS SECTION ##########################
+#
+
+\format "svg" "svg" "SVG" "" "inkview" "inkscape" "vector" "image/svg+xml"
+\default_view_format pdf
+
+#
+# CONVERTERS SECTION ##########################
+#
+
+\converter "svg" "eps" "inkscape $$i --export-eps=$$o" ""
+\converter "svg" "png" "inkscape $$i --export-png=$$o" ""
+\converter "svg" "pdf" "inkscape --export-area-drawing $$i --export-pdf=$$o" ""
+
+#
+# COPIERS SECTION ##########################
+#
+

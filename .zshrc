@@ -94,3 +94,5 @@ source ~/.alias
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export PATH=/usr/lib/ccache:$PATH
+export VISUAL=vim
+export EDITOR="$VISUAL"

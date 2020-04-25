@@ -1,0 +1,14 @@
+{
+	"windowPosition": [
+		1920,
+		30
+	],
+	"windowSize": [
+		3440,
+		1410
+	],
+	"hyper": {
+		"plugins": "{\"plugins\":[\"hyperterm-summon\",\"hyper-pane\"],\"localPlugins\":[]}",
+		"plugin-versions": "[[\"hyperterm-summon\",\"2.0.9\"],[\"hyper-pane\",\"2.1.5\"]]"
+	}
+}

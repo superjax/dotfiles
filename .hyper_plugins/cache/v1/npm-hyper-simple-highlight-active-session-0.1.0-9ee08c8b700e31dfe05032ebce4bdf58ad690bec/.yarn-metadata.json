@@ -1,0 +1,36 @@
+{
+  "manifest": {
+    "name": "hyper-simple-highlight-active-session",
+    "version": "0.1.0",
+    "description": "Simple plugin to demonstrate the usage of the `.term_active` CSS class on Hyper",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+      "name": "Matheus Fernandes",
+      "email": "npm@matheus.top",
+      "url": "https://matheus.top/"
+    },
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/matheuss/hyper-simple-highlight-active-session.git"
+    },
+    "_registry": "npm",
+    "_loc": "/home/superjax/.hyper_plugins/cache/v1/npm-hyper-simple-highlight-active-session-0.1.0-9ee08c8b700e31dfe05032ebce4bdf58ad690bec/package.json",
+    "readmeFilename": "README.md",
+    "readme": "# hyper-simple-highlight-active-session\n\n<img src=\"https://github.com/matheuss/hyper-simple-highlight-active-session/blob/master/screenshot.gif?raw=true\"/>\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyper-simple-highlight-active-session/-/hyper-simple-highlight-active-session-0.1.0.tgz#9ee08c8b700e31dfe05032ebce4bdf58ad690bec",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyper-simple-highlight-active-session/-/hyper-simple-highlight-active-session-0.1.0.tgz",
+    "hash": "9ee08c8b700e31dfe05032ebce4bdf58ad690bec",
+    "registry": "npm",
+    "packageName": "hyper-simple-highlight-active-session"
+  },
+  "registry": "npm",
+  "hash": "9ee08c8b700e31dfe05032ebce4bdf58ad690bec"
+}

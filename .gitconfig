@@ -3,6 +3,9 @@
     subup = submodule update --init --recursive
     st = status
     df = !git --no-pager diff --name-only
+    tree = log --graph --oneline --all
 [user]
     email = superjax08@gmail.com
     name = James Jackson
+[branch]
+    autosetuprebase = always

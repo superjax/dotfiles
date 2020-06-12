@@ -1,11 +1,11 @@
 {
 	"windowPosition": [
 		1920,
-		30
+		25
 	],
 	"windowSize": [
 		3440,
-		1410
+		1415
 	],
 	"hyper": {
 		"plugins": "{\"plugins\":[\"hyperterm-summon\",\"hyper-pane\"],\"localPlugins\":[]}",

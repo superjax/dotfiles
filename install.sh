@@ -5,11 +5,12 @@ SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 echo $SCRIPTPATH
 cd $SCRIPTPATH
 
-for f in $(find . -maxdepth 1 -mindepth 1); do
+for f in $SCRIPTPATH/.*; do 
     if [[ "$f" != *".git"* ]] && [[ "$f" != *".swp" ]]; then
-        echo rm -rf $HOME/$f
-        rm $HOME/$f
-        echo ln -s $f $HOME/$f
-        ln -s $f $HOME/$f
+        BASENAME=$(basename $f)
+        echo rm -rf ${HOME}/${BASENAME}
+        rm -rf ${HOME}/${BASENAME}
+        echo ln -s ${HOME}/${BASENAME} ${SCRIPTPATH}/${BASENAME}
+        ln -s ${SCRIPTPATH}/${BASENAME} ${HOME}/${BASENAME}
     fi
 done

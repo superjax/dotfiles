@@ -97,7 +97,3 @@ export PATH=$PATH:/opt/gcc-arm-none-eabi-9-2019-q4-major/bin
 export PATH=/usr/lib/ccache:$PATH
 export VISUAL=vim
 export EDITOR="$VISUAL"
-export GTK_IM_MODULE=ibus
-export INSTALL4J_JAVA_HOME=/opt/jre1.8.0_241
-export PATH=/usr/local/go/bin:$PATH
-export PATH=$PATH:/home/superjax/Code/hugo

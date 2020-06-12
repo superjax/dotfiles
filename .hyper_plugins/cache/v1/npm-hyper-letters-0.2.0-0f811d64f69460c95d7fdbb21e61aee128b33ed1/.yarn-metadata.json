@@ -1,0 +1,33 @@
+{
+  "manifest": {
+    "name": "hyper-letters",
+    "version": "0.2.0",
+    "keywords": [
+      "hyper",
+      "hyper.app",
+      "hyper-plugin"
+    ],
+    "description": "Letters you type are being thrown around",
+    "author": {
+      "name": "Khôi Tran",
+      "email": "kt@compile.ch"
+    },
+    "license": "MIT",
+    "_registry": "npm",
+    "_loc": "/home/james/.hyper_plugins/cache/v1/npm-hyper-letters-0.2.0-0f811d64f69460c95d7fdbb21e61aee128b33ed1/package.json",
+    "readmeFilename": "README.md",
+    "readme": "\n# hyper-letters\n\nExtension for Hyper that drops entered letters physically in your terminal.\n\n![hyper-letter](https://user-images.githubusercontent.com/5426590/50339456-f687ea80-0517-11e9-9103-bfcda5634186.gif)\n\n## How to use\n\n`hyper i hyper-letters`\n\n## Credits\n\nInspired by [Hyperpower](https://github.com/zeit/hyperpower)\n\n## License\n\nMIT\n",
+    "licenseText": "MIT License\n\nCopyright (c) 2018 Khôi Tran\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyper-letters/-/hyper-letters-0.2.0.tgz#0f811d64f69460c95d7fdbb21e61aee128b33ed1",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyper-letters/-/hyper-letters-0.2.0.tgz",
+    "hash": "0f811d64f69460c95d7fdbb21e61aee128b33ed1",
+    "registry": "npm",
+    "packageName": "hyper-letters"
+  },
+  "registry": "npm",
+  "hash": "0f811d64f69460c95d7fdbb21e61aee128b33ed1"
+}

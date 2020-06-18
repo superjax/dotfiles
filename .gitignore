@@ -3,3 +3,4 @@
 .lyx/session
 .lyx/.lyx_configure_lock
 .swp
+.gdb/__pycache__

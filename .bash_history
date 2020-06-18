@@ -3658,3 +3658,465 @@ cd Code/dotfiles/
 git st
 #1591946634
 git add -A
+#1591946637
+git commit -am "update"
+#1591946640
+git push 
+#1591946547
+ssh jamessjackson08_gmail_com@34.105.59.26
+#1591853638
+git rebase -i master
+#1592118644
+cd build/
+#1592118649
+cmake .. -DCMAKE_BUILD_TYPE=RElease
+#1592118654
+make -j4 -l4
+#1592119000
+./run_tests 
+#1592119090
+cd .
+#1592119092
+cd ..
+#1592119097
+python common/logging/log_reader.py
+#1592119136
+./sim/simulate 
+#1592119351
+./tools/gather_ephemeris.cxx
+#1592119359
+./tools/gather_ephemeris --help
+#1592119374
+./tools/gather_ephemeris --port /dev/ttyACM0 --baudrate 115200 --output_directory ../logs
+#1592119674
+python common/logging/log_reader.py
+#1592119725
+./tools/gather_ephemeris --port /dev/ttyACM0 --baudrate 115200 --output_directory ../logs
+#1592119728
+cd build/
+#1592119729
+./tools/gather_ephemeris --port /dev/ttyACM0 --baudrate 115200 --output_directory ../logs
+#1592120019
+rm -rf *
+#1592120029
+cmake .. -DCMAKE_BUILD_TYPE=Release
+#1592120032
+make -j4 -l4
+#1592120277
+./tools/gather_ephemeris --port /dev/ttyACM0 --baudrate 115200 --output_directory ../logs
+#1592120393
+cd ..
+#1592120401
+./common/logging/log_reader.py
+#1592120405
+python common/logging/log_reader.py
+#1592121159
+make -j4 -l4
+#1592121188
+./tools/gather_ephemeris --port /dev/ttyACM0 --baudrate 115200 --output_directory ../logs
+#1592121298
+make -j4 -l4
+#1592121306
+./tools/gather_ephemeris --port /dev/ttyACM0 --baudrate 115200 --output_directory ../logs
+#1592121416
+make
+#1592121941
+./sim/simulate 
+#1592121955
+./sim/simulate --output_dir ../logs --eph_directory ../logs
+#1592122063
+make simulate
+#1592122119
+./sim/simulate --output_dir ../logs --eph_directory ../logs
+#1592122247
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+#1592122249
+make -j4 -l4
+#1592157288
+./sim/simulate --output_dir ../logs --eph_directory ../logs env /bin/sh /tmp/Microsoft-MIEngine-Cmd-b8hu8m1h.aae 
+#1592157296
+cd build/
+#1592157299
+./sim/simulate 
+#1592157513
+./common/logging/test_logger 
+#1592157669
+make test_logger && ./common/logging/test_logger 
+#1592157850
+cd Downloads/
+#1592157858
+sudo dpkg -i zoom_amd64.deb 
+#1592157931
+cd 
+#1592157933
+cd Downloads/
+#1592157943
+sudo dpkg -i zoom_amd64\ \(2\).deb 
+#1592163438
+reset && make test_logger && ./common/logging/test_logger 
+#1592163514
+git st
+#1592163520
+vim .gitignore
+#1592163526
+vim ../.gitignore
+#1592163535
+gi tst
+#1592163536
+git st
+#1592163545
+vim ../.gitignore 
+#1592163553
+git st
+#1592163556
+vim ../.gitignore 
+#1592163562
+git st
+#1592163565
+git add -A
+#1592163568
+git commit -am "fixing stuff"
+#1592163888
+make sim
+#1592163895
+make simulate
+#1592164119
+cmake .. -DCMAKE_BUILD_TYPE=Release
+#1592164121
+make simulate
+#1592164123
+make simulate -j4 -l4
+#1592164158
+./sim/simulate --output_dir ../logs --eph_directory ../logs
+#1592164251
+cd
+#1592164253
+cd Code/globalai/
+#1592195268
+make -j4 simulate && ./sim/simulate --output_dir ../logs --eph_directory ../logs
+#1592195270
+cd build/
+#1592195271
+make -j4 simulate && ./sim/simulate --output_dir ../logs --eph_directory ../logs
+#1592367490
+cd Downloads/
+#1592367500
+sudo dpkg -i code_1.46.0-1591780013_amd64.deb 
+#1592367763
+speedtest-cli
+#1592367773
+sudo reboot
+#1592164256
+jupyter notebook
+#1592454707
+cd build/
+#1592454712
+make post_process -j4 -l4
+#1592454721
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+#1592454726
+make post_process -j4 -l4
+#1592455236
+./core/post_process ./logs
+#1592455242
+./core/post_process --log_directory ../logs
+#1592455318
+make post_process -j4 -l4
+#1592455352
+./core/post_process --log_directory ../logs
+#1592455362
+make post_process -j4 -l4 && ./core/post_process --log_directory ../logs
+#1592455372
+./core/post_process --log_directory ../logs
+#1592455374
+./core/post_process 
+#1592455404
+make post_process -j4 -l4 && ./core/post_process --log_directory ../logs
+#1592455486
+make post_process -j4 -l4 && ./core/post_process --log_directory ../logs --output_directory ../output
+#1592455612
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+#1592455615
+make post_process -j4 -l4 && ./core/post_process --log_directory ../logs --output_directory ../output
+#1592456171
+cd build
+#1592456173
+make post_process -j4 -l4 && ./core/post_process --log_directory ../logs --output_directory ../output
+#1592456670
+make test_logger
+#1592456808
+./common/logging/test_logger 
+#1592456821
+make -j4 simulate && ./sim/simulate --output_dir ../logs --eph_directory ../logs
+#1592456826
+make -j4 simulate && ./sim/simulate --output_dir ../logs --eph_directory ../logs --help
+#1592456865
+make -j4 simulate && ./sim/simulate --output_dir ../logs --eph_directory ../logs --tmax 3
+#1592456879
+make post_process -j4 -l4 && ./core/post_process --log_directory ../logs --output_directory ../output
+#1592457020
+make -j4 simulate && ./sim/simulate --output_dir ../logs --eph_directory ../logs --tmax 0.3
+#1592457024
+make post_process -j4 -l4 && ./core/post_process --log_directory ../logs --output_directory ../output
+#1592457028
+make -j4 simulate && ./sim/simulate --output_dir ../logs --eph_directory ../logs --tmax 0.3
+#1592457031
+make post_process -j4 -l4 && ./core/post_process --log_directory ../logs --output_directory ../output
+#1592457035
+make -j4 simulate && ./sim/simulate --output_dir ../logs --eph_directory ../logs --tmax 1
+#1592457038
+make post_process -j4 -l4 && ./core/post_process --log_directory ../logs --output_directory ../output
+#1592457041
+make -j4 simulate && ./sim/simulate --output_dir ../logs --eph_directory ../logs --tmax 1
+#1592457149
+make post_process -j4 -l4 && ./core/post_process --log_directory ../logs --output_directory ../output
+#1592457175
+make -j4 simulate && ./sim/simulate --output_dir ../logs --eph_directory ../logs --tmax 3
+#1592457182
+make post_process -j4 -l4 && ./core/post_process --log_directory ../logs --output_directory ../output
+#1592457232
+make -j4 simulate && ./sim/simulate --output_dir ../logs --eph_directory ../logs --tmax 3
+#1592457248
+make post_process -j4 -l4 && ./core/post_process --log_directory ../logs --output_directory ../output
+#1592457413
+make -j4 simulate && ./sim/simulate --output_dir ../logs --eph_directory ../logs --tmax 3
+#1592462331
+make test_logger && ./common/logging/test_logger 
+#1592462364
+make post_process -j4 -l4 && ./core/post_process --log_directory ../logs --output_directory ../output
+#1592462436
+make -j4 simulate && ./sim/simulate --output_dir ../logs --eph_directory ../logs --tmax 1
+#1592462704
+cd Code/dotfiles/
+#1592462706
+ls -alh
+#1592462708
+vim .gdb
+#1592462777
+mkdir .gdb
+#1592462781
+cd .gdb/
+#1592462784
+vim __init__.py
+#1592462788
+touch __init__.py
+#1592462815
+vim printers.py
+#1592462829
+vim printers.py 
+#1592462843
+vim ../.gdbinit.py
+#1592462927
+gdb
+#1592462947
+2to3
+#1592462950
+sudo apt install 2to3
+#1592462966
+2to3 -w printers.py 
+#1592463107
+vim ~/.gdbinit
+#1592463115
+vim ../.gdbinit.py 
+#1592463132
+cd ..
+#1592463134
+vim install.sh 
+#1592463149
+ln -s *.gdb ~/.
+#1592463153
+ls ~
+#1592463155
+ls ~ -alh
+#1592463165
+rm ~/\*.gdb 
+#1592463172
+ln -s .gdb ~/.
+#1592463175
+ls -alh
+#1592463179
+ls ~ -alh
+#1592463185
+rm ~/.gdb 
+#1592463196
+ln -s  ~/.gdb .gdb
+#1592463200
+ls ~ -alh
+#1592463211
+ls ~/.gdb
+#1592463238
+ln -s ~/.gdb ~/Code/dotfiles/.gdb
+#1592463253
+ln -s ~/Code/dotfiles/.gdb ~/.gdb
+#1592463215
+vim install.sh 
+#1592463283
+ln -s ~/Code/dotfiles/.gdbinit.py ~/.gdbinit.py
+#1592463286
+ls ~/. -alh
+#1592463293
+gdb
+#1592463475
+vim .gdb/printers.py
+#1592463501
+gdb
+#1592463576
+cd
+#1592463586
+vim .gdbinit.py 
+#1592463602
+gdb
+#1592463685
+gdb source ~/.gdbinit.py
+#1592463810
+mv ~/.gdbinit.py ~/.gdbinit
+#1592463812
+gdb
+#1592463818
+vim ~/.gdbinit
+#1592463828
+vim ~/.gdb/printers.py
+#1592463838
+gdb
+#1592463886
+vim ~/.gdb/printers.py
+#1592463892
+vim ~/.gdbinit 
+#1592463936
+vim ~/.gdb
+#1592463942
+cd ~/.gdb/
+#1592463948
+rm printers.py.bak 
+#1592463955
+mv printers.py eigen_printers.py
+#1592463966
+cp /usr/share/gcc-7/python/libstdcxx/v6/printers.py stl_printers.py
+#1592463982
+cp /usr/share/gcc-10/python/libstdcxx/v6/printers.py stl_printers.py
+#1592463986
+cd ..
+#1592464009
+cd ~/.gdb/
+#1592464012
+vim stl_printers.py 
+#1592463991
+vim .gdbinit 
+#1592464039
+gdb
+#1592464064
+cd .gdb/
+#1592464066
+vim eigen_printers.py 
+#1592464081
+vim stl_printers.py 
+#1592464058
+vim ~/.gdbinit 
+#1592464091
+gdb
+#1592465118
+vim ~/.gdbinit 
+#1592465130
+gdb
+#1592465348
+ls /usr/include/c++/9/bits
+#1592465360
+vim ~/.gdbinit 
+#1592465371
+gdb
+#1592465406
+vim ~/.gdbinit 
+#1592466200
+code eigen_printers.py 
+#1592466253
+cd build/
+#1592466255
+make post_process -j4 -l4 && ./core/post_process --log_directory ../logs --output_directory ../output
+#1592466296
+make -j4 simulate && ./sim/simulate --output_dir ../logs --eph_directory ../logs --tmax 3
+#1592466305
+make post_process -j4 -l4 && ./core/post_process --log_directory ../logs --output_directory ../output
+#1592466534
+git st
+#1592466546
+cd ..
+#1592466547
+git st
+#1592466549
+vim .gitignore 
+#1592466558
+git st
+#1592466562
+git add -A
+#1592466563
+git st
+#1592466568
+git commit -am "reading fron a log"
+#1592498487
+gi tst
+#1592498488
+git st
+#1592498494
+cd ..
+#1592498495
+gi tst
+#1592498496
+git st
+#1592498502
+git add -A
+#1592498503
+git st
+#1592498517
+vim .gitignore 
+#1592498527
+git st
+#1592498535
+git rm --cached .gdb/__pycache__/
+#1592498536
+gi tst
+#1592498541
+git rm -r --cached .gdb/__pycache__/
+#1592498542
+gi tst
+#1592498543
+git st
+#1592498555
+mv .gdbinit.py .gdbinit
+#1592498568
+rm ~/.gdbinit 
+#1592498586
+ln -s  ~/.gdbinit ~/Code/dotfiles/.gdbinit 
+#1592498595
+ln -s  ~/Code/dotfiles/.gdbinit  ~/.gdbinit
+#1592498597
+git st
+#1592498604
+vim .gitignore 
+#1592498610
+git st
+#1592498614
+git add -A
+#1592498615
+git st
+#1592498620
+cd .fzf
+#1592498621
+git st
+#1592498623
+git diff
+#1592498632
+cd ..
+#1592498633
+git st
+#1592498635
+cd ..
+#1592498637
+git st
+#1592498639
+cd dotfiles/l
+#1592498641
+cd dotfiles/
+#1592498642
+git st
+#1592498643
+git add -A

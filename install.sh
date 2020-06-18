@@ -10,7 +10,7 @@ for f in $SCRIPTPATH/.*; do
         BASENAME=$(basename $f)
         echo rm -rf ${HOME}/${BASENAME}
         rm -rf ${HOME}/${BASENAME}
-        echo ln -s ${HOME}/${BASENAME} ${SCRIPTPATH}/${BASENAME}
+        echo ln -s ${SCRIPTPATH}/${BASENAME} ${HOME}/${BASENAME}
         ln -s ${SCRIPTPATH}/${BASENAME} ${HOME}/${BASENAME}
     fi
 done

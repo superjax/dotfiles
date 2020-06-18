@@ -4120,3 +4120,21 @@ cd dotfiles/
 git st
 #1592498643
 git add -A
+#1592498651
+git commit -am "added gdb printers"
+#1592498653
+git st
+#1592498655
+git add -A
+#1592498657
+git st
+#1592498663
+git add .bash_history 
+#1592498664
+git st
+#1592498674
+git add .fzf/
+#1592498675
+git add -A
+#1592498676
+git st

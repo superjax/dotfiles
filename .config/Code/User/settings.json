@@ -21,7 +21,6 @@
     "terminal.integrated.scrollback": 10000,
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": true,
-    "python.pythonPath": "/usr/bin/python3",
     "python.envFile": "${workspaceFolder}/.vscode/python.env",
     "editor.renderControlCharacters": false,
     "workbench.sideBar.location": "left",

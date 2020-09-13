@@ -99,16 +99,17 @@ source $OSH/oh-my-bash.sh
 # Example aliases
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
+
+# export PATH=$PATH:/opt/gcc-arm-none-eabi-9-2020-q2/bin/
+export PATH=/opt/gcc-arm-none-eabi-6-2017-q2-update/bin/:$PATH
 export PATH=/usr/lib/ccache:$PATH
 alias sbashrc='source ~/.bashrc'
 alias vbashrc='vim ~/.bashrc'
-
-export CC=gcc
-export CXX=g++
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 export VISUAL=vim
 export EDITOR=$VISUAL
 alias ssh_gcloud="gcloud beta compute ssh --zone \"us-central1-a\" \"instance-1\" --project \"long-leaf-257917\""
+alias rst="tput reset"
 

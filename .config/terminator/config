@@ -1,17 +1,18 @@
 [global_config]
+  enabled_plugins = InactivityWatch, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   title_inactive_bg_color = "#000000"
   title_inactive_fg_color = "#d3d7cf"
   title_transmit_bg_color = "#000000"
 [keybindings]
-  go_down = <Primary><Shift>j
-  go_left = <Primary><Shift>h
-  go_right = <Primary><Shift>l
-  go_up = <Primary><Shift>k
+  go_down = <Primary><Alt>j
+  go_left = <Primary><Alt>h
+  go_right = <Primary><Alt>l
+  go_up = <Primary><Alt>k
   help = F12
   hide_window = F1
   new_window = <Primary><Shift>n
-  split_horiz = <Primary><Shift>u
-  split_vert = <Primary><Shift>i
+  split_horiz = <Primary><Alt>u
+  split_vert = <Primary><Alt>i
 [layouts]
   [[default]]
     [[[child0]]]
@@ -46,6 +47,7 @@
 [plugins]
 [profiles]
   [[default]]
+    background_darkness = 0.9
     cursor_color = "#aaaaaa"
     scrollback_infinite = True
     scrollbar_position = hidden

@@ -1,6 +1,7 @@
 python
 import sys
-sys.path.insert(0, '/home/james/.gdb/')
+import os
+sys.path.insert(0, os.path.expanduser('~/.gdb/'))
 
 from eigen_printers import register_eigen_printers
 from stl_printers import register_type_printers

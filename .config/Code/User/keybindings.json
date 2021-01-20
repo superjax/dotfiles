@@ -66,10 +66,6 @@
         "command": "-extension.rerunLastCommand"
     },
     {
-        "key": "ctrl+shift+j",
-        "command": "workbench.action.splitEditor"
-    },
-    {
         "key": "ctrl+\\",
         "command": "-workbench.action.splitEditor"
     },
@@ -124,5 +120,92 @@
         "key": "ctrl+shift+up",
         "command": "-editor.action.insertCursorAbove",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "remote-wsl.revealInExplorer",
+        "when": "false"
+    },
+    {
+        "key": "shift+alt+r",
+        "command": "-remote-wsl.revealInExplorer",
+        "when": "false"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "workbench.action.files.revert"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "aurora-vscode.jumpToBuild"
+    },
+    {
+        "key": "ctrl+alt+o o",
+        "command": "-vscode-open.open"
+    },
+    {
+        "key": "ctrl+alt+o",
+        "command": "vscode-open.openLines"
+    },
+    {
+        "key": "ctrl+alt+o l",
+        "command": "-vscode-open.openLines"
+    },
+    {
+        "key": "ctrl+alt+o u",
+        "command": "-vscode-open.openURI"
+    },
+    {
+        "key": "ctrl+alt+o p",
+        "command": "-vscode-open.openPR"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "-workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+k right",
+        "command": "-workbench.action.moveActiveEditorGroupRight"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "workbench.action.focusRightGroup"
+    },
+    {
+        "key": "ctrl+k ctrl+right",
+        "command": "-workbench.action.focusRightGroup"
+    },
+    {
+        "key": "ctrl+alt+h",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+alt+u",
+        "command": "workbench.action.splitEditorDown"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "workbench.action.splitEditorLeft"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "workbench.action.focusLastEditorGroup"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.gotoSymbol"
+    }
+    {
+        "key": "ctrl+shift+t",
+        "command": "editor.action.insertSnippet",
+        "args": {"snippet": "fprintf(stderr, \"%s:%d $1\\n\", __FILE__, __LINE__$2);\n$3"}
     }
 ]
